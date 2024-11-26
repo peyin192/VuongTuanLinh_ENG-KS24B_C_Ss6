@@ -9,40 +9,30 @@ int main(){
 	if(num1%2!=0){
 		nume1 = num1;
 	}
-	else{
-		nume1 = 0;
-	}
+	
 	
 	printf("Nhap so thu 2: ");
 	scanf("%d",&num2);
 	if(num2%2!=0){
 		nume2 = num2;
-	}else{
-		nume2 = 0;
 	}
 	
 	printf("Nhap so thu 3: ");
 	scanf("%d",&num3);
 	if(num3%2!=0){
 		nume3 = num3;
-	}else{
-		nume3 = 0;
 	}
 	
 	printf("Nhap so thu 4: ");
 	scanf("%d",&num4);
 	if(num4%2!=0){
 		nume4 = num4;
-	}else{
-		nume4 = 0;
 	}
 	
 	printf("Nhap so thu 5: ");
 	scanf("%d",&num5);
 	if(num5%2!=0){
 		nume5 = num5;
-	}else{
-		nume5 = 0;
 	}
 	
 	sum = nume1 + nume2 + nume3 + nume4 + nume5;
